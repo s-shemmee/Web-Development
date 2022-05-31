@@ -1,5 +1,5 @@
 # The 4 Layers Of The Web
-***The browser sends an HTTP request message to the server, asking it to send a copy of the website to the client (you go to the shop and order your goods). This message, and all other data sent between the client and the server, is sent across your internet connection using TCP/IP.****
+***The browser sends an HTTP request message to the server, asking it to send a copy of the website to the client (you go to the shop and order your goods). This message, and all other data sent between the client and the server, is sent across your internet connection using TCP/IP.***
 
 > How does the web work step by step?
 
@@ -24,6 +24,7 @@
 ***A content management system, often abbreviated as CMS, is software that helps users create, manage, and modify content on a website without the need for specialized technical knowledge.***
 
 ***In simpler language, a content management system is a tool that helps you build a website without needing to write all the code from scratch (or even know how to code at all).***
+
 *Exemples: Wix, WordPress,...*
 
 # Web Developer Tool : In-Browser Tool
@@ -96,6 +97,9 @@
 ## Body: The Document (Body) element
 ***The body HTML element represents the content of an HTML document,such as headings, paragraphs, images, hyperlinks, tables, lists, etc. There can be only one body element in a document.***
 
+*Exemple*
+*Exemple*
+
 ```html
 <html>
   <head>
@@ -107,3 +111,38 @@
   </body>
 </html>
 ```
+
+# Text and Lists
+  
+***p: The Paragraph element***
+
+*The p HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.*
+  
+*Exemple*
+  
+```html
+<html>
+  <head>
+    <title>Document title</title>
+  </head>
+  <body>
+    <p>Geckos are a group of usually small, usually nocturnal lizards. They are found on every continent except Australia.</p>
+    <p>Some species live in houses where they hunt insects attracted by artificial light.</p>
+  </body>
+</html>
+```
+  
+***HTML Formating Elements***
+
+- b : Bold text
+- strong : Important text
+- i : Italic text
+- em : Emphasized text
+- mark : Marked text
+- small : Smaller text
+- del : Deleted text
+- ins : Inserted text
+- sub : Subscript text
+- sup : Superscript text
+
+ 
