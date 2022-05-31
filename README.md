@@ -145,4 +145,24 @@
 - sub : Subscript text
 - sup : Superscript text
 
- 
+*Exemple*
+  
+```html
+<html>
+  <head>
+    <title>Document title</title>
+  </head>
+  <body>
+    <b>This text is bold</b>
+    <strong>This text is important!</strong>
+    <i>This text is italic</i>
+    <em>This text is emphasized</em>
+    <small>This is some smaller text.</small>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <p>My favorite color is <del>blue</del> red.</p>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    <p>This is <sub>subscripted</sub> text.</p>
+    <p>This is <sup>superscripted</sup> text.</p>
+  </body>
+</html>
+```
