@@ -6,19 +6,14 @@
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+
+- HTML
+- CSS
+- Javascript
 
 
 
-## Acknowledgements
-
-- [The Internet](https://github.com/s-shemmee/Web-Development/blob/main/The-Internet.md)
-- [The Four Layers Of The WeB](https://github.com/s-shemmee/Web-Development/blob/main/The-Four-Layer-Of-The-Web.md)
-- [The Internet](https://github.com/s-shemmee/Web-Development/blob/main/The-Internet.md)
-- [The Four Layers Of The WeB](https://github.com/s-shemmee/Web-Development/blob/main/The-Four-Layer-Of-The-Web.md)
-
-
-## Roadmap
+## <img src="https://media.giphy.com/media/5mgkHUz6GdNj1YOAgC/giphy.gif" width="60"/> Roadmap
 
 - The Internet
 
@@ -33,11 +28,10 @@ Here are some related projects
 - [The Four Layers Of The WeB](https://github.com/s-shemmee/Web-Development/blob/main/The-Four-Layer-Of-The-Web.md)
 
 
-##  About Me
+##  <img src="https://media.giphy.com/media/lGhBlBMIN2XsEteTN3/giphy.gif" width="60"/> About Me 
 *I'm s-shemmee and I'm a self-taught web developer who shares with you my journey of learning web development and web design from the ground up. I share with you tutorials, case studies, tips, and tricks to help you learn this new skill!*
 
 
 ## Authors
 
 - [@s-shemmee](https://www.github.com/s-shemmee)
-
