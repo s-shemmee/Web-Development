@@ -13,37 +13,6 @@
 - Server-side.
 - Browser-side.
 
-# The 3 Layers Of The Front-end
-- HTML: The Structure Layer.
-- CSS: The Styles Layer.
-- JavaScript: The Behavior Layer.
-
-![Image result for the 3 layer of the Front end](https://miro.medium.com/max/1400/1*xPzUFLBLfZ4AqXTPaK9B1g.jpeg)
-
-# Web Developer Tool : CMS (Content Management System)
-***A content management system, often abbreviated as CMS, is software that helps users create, manage, and modify content on a website without the need for specialized technical knowledge.***
-
-***In simpler language, a content management system is a tool that helps you build a website without needing to write all the code from scratch (or even know how to code at all).***
-
-*Exemples: Wix, WordPress,...*
-
-# Web Developer Tool : In-Browser Tool
-***Every modern web browser includes a powerful suite of developer tools. These tools do a range of things, from inspecting currently-loaded HTML, CSS and JavaScript to showing which assets the page has requested and how long they took to load.***
-
-![Image result for in-bowser developer tool](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools/devtools_63_inspector.png)
-
-# Web Developer Tool : Online Tools
-
-![Image result for online developer tools](https://www.turing.com/blog/wp-content/uploads/2022/01/Tools-for-testing.jpg)
-
-***Modern trends and webapps have dramatically changed the way web developers can build. Obviously you need some type of IDE to code new files and save them for deployment. But what about just testing your code snippets? There are more tools available now than ever before!***
-***All of these apps require an Internet connection, and some of the more advanced editors offer pro plans to upgrade your account features. But most of these tools will surely come in handy when you’re scrambling to debug a block of JavaScript or PHP.***
-
-# Web Developer Tool : Integrated Developement Environmemt (IDE)
-***An integrated development environment (IDE) is a software suite that consolidates basic tools required to write and test software. Developers use numerous tools throughout software code creation, building and testing. Development tools often include text editors, code libraries, compilers and test platforms.***
-
-![Image result for web development ide](https://miro.medium.com/max/1400/1*hCOOFW4sQi1jz7-2u1sJGQ.png)
-
 # HTML(HyperText Markup Language)
 ***HTML is the most basic building block of the Web. It defines the meaning and structure of web content.***
 
