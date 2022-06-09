@@ -1,18 +1,3 @@
-# The 4 Layers Of The Web
-***The browser sends an HTTP request message to the server, asking it to send a copy of the website to the client (you go to the shop and order your goods). This message, and all other data sent between the client and the server, is sent across your internet connection using TCP/IP.***
-
-> How does the web work step by step?
-
-![Image result for how the web works](https://res.cloudinary.com/academind-gmbh/image/upload/f_auto,q_auto:eco/dpr_2.0,w_400,c_limit,g_center/v1/academind.com/content/tutorials/how-the-web-works/how-the-web-works-big-picture)
-
-> Let's have a look at all four steps.
-- Step 1 - URL Gets Resolved.
-- Step 2 - Request Is Sent.
-- Step 3 - Response Is Parsed.
-- Step 4 - Page Is Displayed.
-- Server-side.
-- Browser-side.
-
 # HTML(HyperText Markup Language)
 ***HTML is the most basic building block of the Web. It defines the meaning and structure of web content.***
 
