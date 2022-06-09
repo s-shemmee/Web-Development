@@ -26,7 +26,7 @@
     - Cookies
     - Domain Name
     - Hosting
-- The Web
+- HTML 
 
 
 ## <img src="https://media.giphy.com/media/WQINRXYXaqVx6g4Eza/giphy.gif" width="30"/> Related
@@ -34,7 +34,7 @@
 Here are some related projects
 
 - [The Internet](https://github.com/s-shemmee/Web-Development/blob/main/The-Internet.md)
-- [The Four Layers Of The WeB](https://github.com/s-shemmee/Web-Development/blob/main/The-Four-Layer-Of-The-Web.md)
+- [HTML-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/HTML-Crash-Course.md)
 
 
 ##  <img src="https://media.giphy.com/media/lGhBlBMIN2XsEteTN3/giphy.gif" width="30"/> About Me 
