@@ -15,7 +15,6 @@
 
 - The Internet
   - How does the internet work?
-  - How does the internet work?
   - What is HTTP?
   - Browsers and how they work?
     - URL
