@@ -1,4 +1,4 @@
-# HTML
+# HTML <img width="40" src="https://media.giphy.com/media/5Lmn42BCOy99RaGRP7/giphy.gif"/>
 *HTML İs an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.*
 
 ## What is HTML
