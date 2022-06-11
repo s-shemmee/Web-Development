@@ -77,3 +77,11 @@ Since the time HTML was invented there are lots of HTML.versions in market, the 
 7) HTML is a case-insensitive language, which means we can use tag either in lower-case or upper-case.
 
 **NOTE: It is recommended to write all tags in lower-case for consistency, readability, etc**
+
+## HTML-Tag syntax
+*HTML is using tags for its syntax. A tag is composed with special characters: <, > and /. They are interpreted by softwares to compose an HTML element.*
+
+### Decomposition of HTML elements
+HTML elements usually come in tag pairs.
+<img src="https://www.w3.org/community/webed/wiki/images/3/39/Elements.png">
+
