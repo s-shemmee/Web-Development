@@ -211,8 +211,12 @@ ends usually with a `>`.
 *HTML defines six levels of headings. A heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading. The heading elements are H1, H2, H3, H4, H5, and H6 with H1 being the highest (or most important) level and H6 the least. For example:*
 
 ```HTML
-<H1>This is a top level heading</H1> Here is some text.
-<H2>Second level heading</H2> Here is some more text.
+  <h1>Hello World</h1>
+  <h2>Hello World</h2>
+  <h3>Hello World</h3>
+  <h4>Hello World</h4>
+  <h5>Hello World</h5>
+  <h6>Hello World</h6>
 ```
 ## Paragraph
 
@@ -222,8 +226,7 @@ ends usually with a `>`.
 
 ```HTML
 <p>This is a paragraph.</p>
-<p>This is another paragraph;
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis officiis minus corporis atque quia ducimus vero voluptate ad quaerat magni fugit odio, voluptatum accusamus amet beatae nostrum sapiente dignissimos deleniti.</p>
+<p>This is another paragraph;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis officiis minus corporis atque quia ducimus vero voluptate ad quaerat magni fugit odio, voluptatum accusamus amet beatae nostrum sapiente dignissimos deleniti.</p>
 <p>
 This paragraph
 contains a lot of lines
@@ -240,4 +243,107 @@ but the        browser
 ignores it.
 </p>  
 ```
+## HTML Formatting Elements
+
+> Formatting elements were designed to display special types of text:
+
+- `<b>` - Bold text
+- `<strong>` - Important text
+- `<i>` - Italic text
+- `<em>` - Emphasized text
+- `<mark>` - Marked text
+- `<small>` - Smaller text
+- `<del>` - Deleted text
+- `<ins>` - Inserted text
+- `<sub>` - Subscript text
+- `<sup>` - Superscript text
+
+## HTML Quotation and Citation Elements
+
+*In this chapter we will go through the `<blockquote>`,`<q>`, `<abbr>`, `<address>`, `<cite>`, and `<bdo>` HTML elements.*
+
+*The HTML `<blockquote>` element defines a section that is quoted from another source.*
+
+> Browsers usually indent `<blockquote>` elements.
+
+```HTML
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+```
+
+### HTML <q> for Short Quotations
+
+*The HTML <q> tag defines a short quotation.*
+
+>Browsers normally insert quotation marks around the quotation.
+
+```HTML
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+```
+
+### HTML <abbr> for Abbreviations
+
+*The HTML `<abbr>` tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".*
+
+*Marking abbreviations can give useful information to browsers, translation systems and search-engines.*
+
+*Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.*
+
+```HTML
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+```
+
+### HTML `<address>` for Contact Information
+
+*The HTML `<address>` tag defines the contact information for the author/owner of a document or an article.*
+
+*The contact information can be an email address, URL, physical address, phone number, social media handle, etc.*
+
+*The text in the `<address>` element usually renders in italic, and browsers will always add a line break before and after the `<address>` element.*
+
+```HTML
+Example
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+```
+
+### HTML <cite> for Work Title
+
+*The HTML `<cite>` tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).*
+
+> Note: A person's name is not the title of a work.
+
+*The text in the <cite> element usually renders in italic.*
+
+```HTML
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+```
+
+### HTML <bdo> for Bi-Directional Override
+
+*BDO stands for Bi-Directional Override.*
+
+*The HTML `<bdo>` tag is used to override the current text direction:*
+
+```HTML
+<bdo dir="rtl">This text will be written from right to left</bdo>
+```
+
+
+
+
+
+
+
 
