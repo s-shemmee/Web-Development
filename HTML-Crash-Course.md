@@ -79,9 +79,165 @@ Since the time HTML was invented there are lots of HTML.versions in market, the 
 **NOTE: It is recommended to write all tags in lower-case for consistency, readability, etc**
 
 ## HTML-Tag syntax
-*HTML is using tags for its syntax. A tag is composed with special characters: <, > and /. They are interpreted by softwares to compose an HTML element.*
+
+*HTML is using tags for its syntax. A tag is composed with special characters: `<`,`>` and `/`. They are interpreted by softwares to compose an HTML element.*
 
 ### Decomposition of HTML elements
-HTML elements usually come in tag pairs.
+
+*HTML elements usually come in tag pairs.*
+
 <img src="https://www.w3.org/community/webed/wiki/images/3/39/Elements.png">
+
+> For opening a simple element with a start tag
+
+- it starts with `<`
+then a list of characters without space, the tagname (or element)
+ends usually with a `>`.
+Then closing the simple element with an end tag
+
+- it starts with `</`
+then the same list of characters without space, the tagname (or element)
+ends usually with a `>`.
+
+> If the tagname is "cite", then you get
+
+```HTML
+<cite></cite>
+```
+> Some elements do not have an end tag (because they are implied by the following tags). For example you might have seen:
+
+```HTML
+<br>
+```
+## HTML Attributes
+
+*HTML attributes provide additional information about HTML elements.*
+
+- All HTML elements can have attributes
+- Attributes provide additional information about elements
+- Attributes are always specified in the start tag
+- Attributes usually come in name/value pairs like: `name="value"`
+
+### The href Attribute
+
+*The `<a>` tag defines a hyperlink. The `href` attribute specifies the URL of the page the link goes to:*
+
+```HTML
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+```
+#### The src Attribute
+
+*The `<img>` tag is used to embed an image in an HTML page. The `src` attribute specifies the path to the image to be displayed:*
+
+```HTML
+<img src="img_girl.jpg">
+```
+> There are two ways to specify the URL in the `src` attribute:
+
+1. **Absolute URL** - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+
+*Notes*: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+
+2. **Relative URL** - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+
+*Tip*: It is almost always best to use relative URLs. They will not break if you change domain.
+
+#### The width and height Attributes
+
+*The `<img>` tag should also contain the width and height attributes, which specifies the width and height of the image (in pixels):*
+
+```HTML
+<img src="img_girl.jpg" width="500" height="600">
+```
+#### The alt Attribute
+
+*The required `alt` attribute for the `<img>` tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the `src` attribute, or if the user uses a screen reader.*
+
+```HTML
+<img src="img_girl.jpg" alt="Girl with a jacket">
+```
+
+> See what happens if we try to display an image that does not exist:
+
+```HTML
+<img src="img_girl.jpg" alt="Girl with a jacket">
+```
+### The style Attribute
+
+*The `style` attribute is used to add styles to an element, such as color, font, size, and more.*
+
+```HTML
+<p style="color:red;">This is a red paragraph.</p>
+```
+### The Lang Attribute
+
+*You should always include the `lang` attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers.*
+
+> The following example specifies English as the language:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+```
+*Country codes can also be added to the language code in the `lang` attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.*
+
+> The following example specifies English as the language and United States as the country:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+```
+
+## The title Attribute
+
+*The `title` attribute defines some extra information about an element.*
+
+> The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+
+```HTML
+<p title="I'm a tooltip">This is a paragraph.</p>
+```
+
+## Heading
+
+*HTML defines six levels of headings. A heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading. The heading elements are H1, H2, H3, H4, H5, and H6 with H1 being the highest (or most important) level and H6 the least. For example:*
+
+```HTML
+<H1>This is a top level heading</H1> Here is some text.
+<H2>Second level heading</H2> Here is some more text.
+```
+## Paragraph
+
+*A paragraph always starts on a new line, and is usually a block of text.The HTML `<p>` element defines a paragraph.*
+
+*A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.*
+
+```HTML
+<p>This is a paragraph.</p>
+<p>This is another paragraph;
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis officiis minus corporis atque quia ducimus vero voluptate ad quaerat magni fugit odio, voluptatum accusamus amet beatae nostrum sapiente dignissimos deleniti.</p>
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+</p>
+
+<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+</p>  
+```
 
