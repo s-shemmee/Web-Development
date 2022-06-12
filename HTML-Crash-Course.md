@@ -479,16 +479,16 @@ USA
 <p><a href="/css/default.asp">CSS Tutorial</a></p>
 ```
 
-```HTML
-<a href="default.asp">
-<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
-</a>
-
 - Use the `<a>` element to define a link
 - Use the `href` attribute to define the link address
 - Use the target attribute to define where to open the linked document
 - Use the `<img>` element (inside `<a>`) to use an image as a link
 - Use the `mailto:` scheme inside the `href` attribute to create a link that opens the user's email program
+ 
+```HTML
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
 
 <a href="mailto:someone@example.com">Send email</a>
 
@@ -496,15 +496,4 @@ USA
 
 <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
 ```
-
-
-
-
-
-
-
-
-
-
-
 
