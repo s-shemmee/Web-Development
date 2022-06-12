@@ -25,7 +25,31 @@
     - Cookies
     - Domain Name
     - Hosting
-- HTML 
+- HTML
+  - Brief History of HTML
+  - HTML Tag syntax
+  - Heading
+  - Paragraph
+  - Formating Elements
+  - Quotation & Citation
+     - Abbreviation
+     - Address
+     - Cite
+     - Bdo
+  - HTML Block & Inline Elements
+    -Block elements
+      - Div Element
+    -Inline elements
+      - Span element
+  - HTML Attribute
+    - The href Attribute
+    - The src Attribute
+    - The width and height Attributes
+    - The alt Attribute
+    - The style Attribute
+    - The Lang Attribute
+    - The title Attribute
+
 
 
 ## <img src="https://media.giphy.com/media/WQINRXYXaqVx6g4Eza/giphy.gif" width="30"/> Related

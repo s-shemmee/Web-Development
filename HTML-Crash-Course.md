@@ -397,7 +397,7 @@ USA
 </html>
 ```
 
-## The `title` Attribute
+### The `title` Attribute
 
 *The `title` attribute defines some extra information about an element.*
 
@@ -407,6 +407,9 @@ USA
 <p title="I'm a tooltip">This is a paragraph.</p>
 ```
 
+## HTML Images
+
+Images can improve the design and the appearance of a web page.
 
 
 
