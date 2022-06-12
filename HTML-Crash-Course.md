@@ -337,11 +337,11 @@ USA
 
 1. **Absolute URL** - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
 
-*Notes*: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+> *Notes*: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
 
 2. **Relative URL** - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
 
-*Tip*: It is almost always best to use relative URLs. They will not break if you change domain.
+> *Tip*: It is almost always best to use relative URLs. They will not break if you change domain.
 
 ### The width and height Attributes
 
@@ -372,7 +372,7 @@ USA
 ```
 ### The Lang Attribute
 
-*You should always include the `lang` attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers.*
+**You should always include the `lang` attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers.**
 
 > The following example specifies English as the language:
 
@@ -399,7 +399,7 @@ USA
 
 ### The `title` Attribute
 
-*The `title` attribute defines some extra information about an element.*
+**The `title` attribute defines some extra information about an element.**
 
 > The value of the title attribute will be displayed as a tooltip when you mouse over the element:
 
@@ -409,20 +409,93 @@ USA
 
 ## HTML Images
 
-Images can improve the design and the appearance of a web page.
+**Images can improve the design and the appearance of a web page.**
 
+### HTML Images Syntax
 
+*The HTML `<img>` tag is used to embed an image in a web page.*
 
+*Images are not technically inserted into a web page; images are linked to web pages. The `<img>` tag creates a holding space for the referenced image.*
 
+*The `<img>` tag is empty, it contains attributes only, and does not have a closing tag.*
 
+- The `<img>` tag has two required attributes:
 
+> `src` - Specifies the path to the image
+> `alt` - Specifies an alternate text for the image
 
+```HTML
+<img src="img_chania.jpg" alt="Flowers in Chania">
+```
 
+## HTML Links
 
+**Links are found in nearly all web pages. Links allow users to click their way from page to page.**
 
+> The HTML `<a>` tag defines a hyperlink. It has the following syntax:
 
+```HTML
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+```
 
+- The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
 
+- The link text is the part that will be visible to the reader.
+
+- Clicking on the link text, will send the reader to the specified URL address.
+
+> By default, links will appear as follows in all browsers:
+
+- An unvisited link is underlined and blue
+- A visited link is underlined and purple
+- An active link is underlined and red
+
+> HTML Links - The target Attribute
+
+*By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.*
+
+> The `target` attribute specifies where to open the linked document.
+
+> The `target` attribute can have one of the following values:
+
+- `_self` - Default. Opens the document in the same window/tab as it was clicked
+- `_blank` - Opens the document in a new window or tab
+- `_parent` - Opens the document in the parent frame
+- `_top` - Opens the document in the full body of the window
+
+> Absolute URLs vs. Relative URLs
+
+- Both examples above are using an **absolute URL** (a full web address) in the `href` attribute.
+
+- A local link (a link to a page within the same website) is specified with a **relative URL** (without the `"https://www"` part):
+
+```HTML
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+```
+
+```HTML
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+- Use the `<a>` element to define a link
+- Use the `href` attribute to define the link address
+- Use the target attribute to define where to open the linked document
+- Use the `<img>` element (inside `<a>`) to use an image as a link
+- Use the `mailto:` scheme inside the `href` attribute to create a link that opens the user's email program
+
+<a href="mailto:someone@example.com">Send email</a>
+
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+```
 
 
 
