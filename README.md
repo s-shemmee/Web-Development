@@ -37,9 +37,9 @@
      - Cite
      - Bdo
   - HTML Block & Inline Elements
-    -Block elements
-      - Div Element
-    -Inline elements
+    - Block elements
+      - Div element
+    - Inline elements
       - Span element
   - HTML Attribute
     - The href Attribute
