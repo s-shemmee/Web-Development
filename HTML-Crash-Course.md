@@ -109,102 +109,6 @@ ends usually with a `>`.
 ```HTML
 <br>
 ```
-## HTML Attributes
-
-*HTML attributes provide additional information about HTML elements.*
-
-- All HTML elements can have attributes
-- Attributes provide additional information about elements
-- Attributes are always specified in the start tag
-- Attributes usually come in name/value pairs like: `name="value"`
-
-### The href Attribute
-
-*The `<a>` tag defines a hyperlink. The `href` attribute specifies the URL of the page the link goes to:*
-
-```HTML
-<a href="https://www.w3schools.com">Visit W3Schools</a>
-```
-#### The src Attribute
-
-*The `<img>` tag is used to embed an image in an HTML page. The `src` attribute specifies the path to the image to be displayed:*
-
-```HTML
-<img src="img_girl.jpg">
-```
-> There are two ways to specify the URL in the `src` attribute:
-
-1. **Absolute URL** - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
-
-*Notes*: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
-
-2. **Relative URL** - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
-
-*Tip*: It is almost always best to use relative URLs. They will not break if you change domain.
-
-#### The width and height Attributes
-
-*The `<img>` tag should also contain the width and height attributes, which specifies the width and height of the image (in pixels):*
-
-```HTML
-<img src="img_girl.jpg" width="500" height="600">
-```
-#### The alt Attribute
-
-*The required `alt` attribute for the `<img>` tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the `src` attribute, or if the user uses a screen reader.*
-
-```HTML
-<img src="img_girl.jpg" alt="Girl with a jacket">
-```
-
-> See what happens if we try to display an image that does not exist:
-
-```HTML
-<img src="img_girl.jpg" alt="Girl with a jacket">
-```
-### The style Attribute
-
-*The `style` attribute is used to add styles to an element, such as color, font, size, and more.*
-
-```HTML
-<p style="color:red;">This is a red paragraph.</p>
-```
-### The Lang Attribute
-
-*You should always include the `lang` attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers.*
-
-> The following example specifies English as the language:
-
-```HTML
-<!DOCTYPE html>
-<html lang="en">
-<body>
-...
-</body>
-</html>
-```
-*Country codes can also be added to the language code in the `lang` attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.*
-
-> The following example specifies English as the language and United States as the country:
-
-```HTML
-<!DOCTYPE html>
-<html lang="en-US">
-<body>
-...
-</body>
-</html>
-```
-
-## The title Attribute
-
-*The `title` attribute defines some extra information about an element.*
-
-> The value of the title attribute will be displayed as a tooltip when you mouse over the element:
-
-```HTML
-<p title="I'm a tooltip">This is a paragraph.</p>
-```
 
 ## Heading
 
@@ -277,9 +181,9 @@ close to 5 million globally.
 </blockquote>
 ```
 
-### HTML <q> for Short Quotations
+### HTML `<q>` for Short Quotations
 
-*The HTML <q> tag defines a short quotation.*
+*The HTML `<q>` tag defines a short quotation.*
 
 >Browsers normally insert quotation marks around the quotation.
 
@@ -287,7 +191,7 @@ close to 5 million globally.
 <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
 ```
 
-### HTML <abbr> for Abbreviations
+### HTML `<abbr>` for Abbreviations
 
 *The HTML `<abbr>` tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".*
 
@@ -318,19 +222,19 @@ USA
 </address>
 ```
 
-### HTML <cite> for Work Title
+### HTML `<cite>` for Work Title
 
 *The HTML `<cite>` tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).*
 
 > Note: A person's name is not the title of a work.
 
-*The text in the <cite> element usually renders in italic.*
+*The text in the `<cite>` element usually renders in italic.*
 
 ```HTML
 <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
 ```
 
-### HTML <bdo> for Bi-Directional Override
+### HTML `<bdo>` for Bi-Directional Override
 
 *BDO stands for Bi-Directional Override.*
 
@@ -339,6 +243,187 @@ USA
 ```HTML
 <bdo dir="rtl">This text will be written from right to left</bdo>
 ```
+
+## HTML Block and Inline Elements
+
+*Every HTML element has a default display value, depending on what type of element it is.*
+
+- There are two display values: block and inline
+- A block-level element always starts on a new line and takes up the full width available
+- An inline element does not start on a new line and it only takes up as much width as necessary
+- The `<div>` element is a block-level and is often used as a container for other HTML elements
+- The `<span>` element is an inline container used to mark up a part of a text, or a part of a document
+
+**Block-level Elements**
+
+*A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.*
+
+*A block-level element always takes up the full width available (stretches out to the left and right as far as it can).*
+
+> Two commonly used block elements are: `<p>` and `<div>`.
+
+- The `<p>` element defines a paragraph in an HTML document.
+
+- The `<div>` element defines a division or a section in an HTML document.
+
+> Here are the block-level elements in HTML:
+
+```HTML
+<address> <article> <aside> <blockquote> <canvas> <dd> <div> <dl> <dt> <fieldset> <figcaption> <figure> <footer> <form> <h1>-<h6> <header> <hr> <li> <main> <nav> <noscript> <ol> <p> <pre> <section> <table> <tfoot> <ul> <video>
+```
+
+**Inline Elements**
+
+> An inline element does not start on a new line.
+
+> An inline element only takes up as much width as necessary.
+
+> This is a `<span>` element inside a paragraph.
+
+```HTML
+<a> <abbr> <acronym> <b> <bdo> <big> <br> <button> <cite> <code> <dfn> <em> <i> <img> <input> <kbd> <label> <map> <object> <output> <q> <samp> <script> <select> <small> <span> <strong> <sub> <sup> <textarea> <time> <tt> <var>
+```
+
+## The `<div>` Element
+
+*The `<div>` element is often used as a container for other HTML elements.*
+*The `<div>` element has no required attributes, but `style`, `class` and `id` are common.*
+
+> When used together with CSS, the `<div>` element can be used to style blocks of content:
+
+```HTML
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+```
+
+## The `<span>` Element
+
+*The `<span>` element is an inline container used to mark up a part of a text, or a part of a document.*
+
+*The `<span>` element has no required attributes, but `style`, `class` and `id` are common.*
+
+> When used together with CSS, the `<span>` element can be used to style parts of the text:
+
+```HTML
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+```
+
+## HTML Attributes
+
+*HTML attributes provide additional information about HTML elements.*
+
+- All HTML elements can have attributes
+- Attributes provide additional information about elements
+- Attributes are always specified in the start tag
+- Attributes usually come in name/value pairs like: `name="value"`
+
+### The href Attribute
+
+*The `<a>` tag defines a hyperlink. The `href` attribute specifies the URL of the page the link goes to:*
+
+```HTML
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+```
+### The src Attribute
+
+*The `<img>` tag is used to embed an image in an HTML page. The `src` attribute specifies the path to the image to be displayed:*
+
+```HTML
+<img src="img_girl.jpg">
+```
+> There are two ways to specify the URL in the `src` attribute:
+
+1. **Absolute URL** - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+
+*Notes*: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+
+2. **Relative URL** - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+
+*Tip*: It is almost always best to use relative URLs. They will not break if you change domain.
+
+### The width and height Attributes
+
+*The `<img>` tag should also contain the width and height attributes, which specifies the width and height of the image (in pixels):*
+
+```HTML
+<img src="img_girl.jpg" width="500" height="600">
+```
+### The alt Attribute
+
+*The required `alt` attribute for the `<img>` tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the `src` attribute, or if the user uses a screen reader.*
+
+```HTML
+<img src="img_girl.jpg" alt="Girl with a jacket">
+```
+
+> See what happens if we try to display an image that does not exist:
+
+```HTML
+<img src="img_girl.jpg" alt="Girl with a jacket">
+```
+### The style Attribute
+
+*The `style` attribute is used to add styles to an element, such as color, font, size, and more.*
+
+```HTML
+<p style="color:red;">This is a red paragraph.</p>
+```
+### The Lang Attribute
+
+*You should always include the `lang` attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers.*
+
+> The following example specifies English as the language:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+```
+*Country codes can also be added to the language code in the `lang` attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.*
+
+> The following example specifies English as the language and United States as the country:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+```
+
+## The `title` Attribute
+
+*The `title` attribute defines some extra information about an element.*
+
+> The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+
+```HTML
+<p title="I'm a tooltip">This is a paragraph.</p>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
