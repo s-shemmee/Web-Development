@@ -64,6 +64,13 @@ Here are some related projects
 *I'm s-shemmee and I'm a self-taught web developer who shares with you my journey of learning web development and web design from the ground up. I share with you tutorials, case studies, tips, and tricks to help you learn this new skill!*
 
 
+## Sources
+
+- [@Codedamn](https://codedamn.com)
+- [@Codestackr](https://courses.codestackr.com)
+- [@w3schools](https://www.w3schools.com)
+
+
 ## Authors
 
 - [@s-shemmee](https://www.github.com/s-shemmee)
