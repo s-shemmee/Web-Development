@@ -69,6 +69,8 @@ Here are some related projects
 - [@Codedamn](https://codedamn.com)
 - [@Codestackr](https://courses.codestackr.com)
 - [@w3schools](https://www.w3schools.com)
+- [@](https://developer.mozilla.org/en-US/)
+- [@MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 
 ## Authors
