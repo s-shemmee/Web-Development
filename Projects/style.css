@@ -1,11 +1,20 @@
-html, body, .main {
-  height: 100%;
+body{
+  background: linear-gradient(45deg, #4158d0, #c850c0)
+}
+/*.text-warning {
+  --bs-text-opacity: 1;
+  color: #c850c0 !important;
+}
+
+.navbar-brand {
+  --bs-text-opacity: 1;
+  color: #4158d0 !important;
 }
 
 .gradient-custom-1 {
-  /* fallback for old browsers */
+  fallback for old browsers 
   background: #4158d0;
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
   background: linear-gradient(to top, #4158d0, #c850c0)
 }
 
