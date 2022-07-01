@@ -312,6 +312,28 @@ USA
 ```HTML
 <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
 ```
+## HTML Form
+
+*An HTML form is used to collect user input. The user input is most often sent to a server for processing.*
+
+```html
+<form>
+.
+form elements
+.
+</form>
+```
+
+### The <input> Element
+
+*The HTML <input> element is the most used form element.*
+
+*An <input> element can be displayed in many ways, depending on the type attribute.*
+
+> Here are some examples:
+html```<input type="text">```	: Displays a single-line text input field
+html```<input type="radio">``` : Displays a radio button (for selecting one of many choices)
+
 
 ## HTML Attributes
 
