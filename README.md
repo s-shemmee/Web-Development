@@ -41,6 +41,14 @@
       - Div element
     - Inline elements
       - Span element
+  - HTML Form
+    - The input Element
+    - Text Fields
+    - The label Element
+    - Radio Buttons
+    - Checkboxes
+    - The Submit Button
+    - The Name Attribute for input
   - HTML Attribute
     - The href Attribute
     - The src Attribute
@@ -49,6 +57,20 @@
     - The style Attribute
     - The Lang Attribute
     - The title Attribute
+  - HTML Images
+    - HTML Images Syntax
+  - HTML Links
+  - HTML Tables
+    - HTML Table Tags
+  - HTML Lists
+    - Unordered HTML List
+    - Ordered HTML List
+    - HTML List Tags
+  - HTML Layout Elements and Techniques
+    - HTML Layout Elements
+    - HTML Layout Techniques
+
+- CSS
 
 
 
@@ -69,10 +91,9 @@ Here are some related projects
 - [@Codedamn](https://codedamn.com)
 - [@Codestackr](https://courses.codestackr.com)
 - [@w3schools](https://www.w3schools.com)
-- [@](https://developer.mozilla.org/en-US/)
+- [@Udemy](https://www.udemy.com)
 - [@MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 
-## Authors
 
-- [@s-shemmee](https://www.github.com/s-shemmee)
+- By [@s-shemmee](https://www.github.com/s-shemmee)
