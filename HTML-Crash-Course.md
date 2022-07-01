@@ -727,10 +727,8 @@ An ordered HTML list:
 ### HTML Layout Elements
 
 *HTML has several semantic elements that define the different parts of a web page:*
-
-<div align="center">
-  <img width="50px" src="https://www.w3schools.com/html/img_sem_elements.gif"/>
-</div>
+ 
+ <img width="50px" src="https://www.w3schools.com/html/img_sem_elements.gif"/>
 
 - `<header>` : Defines a header for a document or a section
 - `<nav>` : Defines a set of navigation links
