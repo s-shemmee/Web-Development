@@ -1,6 +1,6 @@
 # Web Development <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" alt="cover" width="50"/>
 
-*Web development and design can be intimidating, but it's not as difficult as you think.* <br/>*As a self-taught web developer and designer, I share my journey of learning this new skill.The goal of this documentation is to simplify learning web development and web design so that anyone can get started. Hope you enjoy it!*
+*Web development can be intimidating, but it's not as difficult as you think.* <br/>*As a self-taught web developer, I share my journey of learning this new skill.The goal of this documentation is to simplify learning web development so that anyone can get started. Hope you enjoy it!*
 
 
 ## <img src="https://media.giphy.com/media/RkcB9I0YnRiN6OQitv/giphy.gif" width="30"/> Skills
