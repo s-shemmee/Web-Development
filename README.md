@@ -80,6 +80,8 @@ Here are some related projects
 
 - [The Internet](https://github.com/s-shemmee/Web-Development/blob/main/The-Internet.md)
 - [HTML-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/HTML-Crash-Course.md)
+- [CSS-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/CSS-Crash-Course.md)
+- [JS-Crash-Course]()
 
 
 ##  <img src="https://media.giphy.com/media/lGhBlBMIN2XsEteTN3/giphy.gif" width="30"/> About Me 
@@ -96,4 +98,4 @@ Here are some related projects
 
 
 
-- By [@s-shemmee](https://www.github.com/s-shemmee)
+> By [@s-shemmee](https://www.github.com/s-shemmee)
