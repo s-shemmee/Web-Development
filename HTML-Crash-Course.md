@@ -324,20 +324,122 @@ form elements
 </form>
 ```
 
-### The <input> Element
+### The `<input>` Element
 
-*The HTML <input> element is the most used form element.*
+*The HTML `<input>` element is the most used form element.*
 
-*An <input> element can be displayed in many ways, depending on the type attribute.*
+*An `<input>` element can be displayed in many ways, depending on the type attribute.*
 
 > Here are some examples:
 
-- html```<input type="text">```	: Displays a single-line text input field
-- html```<input type="radio">``` : Displays a radio button (for selecting one of many choices)
-- html```<input type="checkbox">``` :	Displays a checkbox (for selecting zero or more of many choices)
-- html```<input type="submit">``` :	Displays a submit button (for submitting the form)
-- html```<input type="button">``` :	Displays a clickable button
+- ```html<input type="text">```	: Displays a single-line text input field
+- ```html<input type="radio">``` : Displays a radio button (for selecting one of many choices)
+- ```html<input type="checkbox">``` :	Displays a checkbox (for selecting zero or more of many choices)
+- ```html<input type="submit">``` :	Displays a submit button (for submitting the form)
+- ```html<input type="button">``` :	Displays a clickable button
 
+#### Text Fields
+
+*The `<input type="text">` defines a single-line input field for text input.*
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+```
+
+#### The `<label>` Element
+
+- Notice the use of the `<label>` element in the example above.
+
+- The `<label>` tag defines a label for many form elements.
+
+- The `<label>` element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
+
+- The `<label>` element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the `<label>` element, it toggles the radio button/checkbox.
+
+- The for attribute of the `<label>` tag should be equal to the id attribute of the `<input>` element to bind them together.
+
+#### Radio Buttons
+
+- The `<input type="radio">` defines a radio button.
+
+*Radio buttons let a user select ONE of a limited number of choices.*
+
+Example
+A form with radio buttons:
+
+<p>Choose your favorite Web language:</p>
+
+```html
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+```
+
+#### Checkboxes
+- The `<input type="checkbox">` defines a checkbox.
+
+*Checkboxes let a user select ZERO or MORE options of a limited number of choices.*
+
+> Example
+- A form with checkboxes:
+
+```html
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+```
+
+#### The Submit Button
+
+- The `<input type="submit">` defines a button for submitting the form data to a form-handler.
+
+*The form-handler is typically a file on the server with a script for processing input data.*
+
+*The form-handler is specified in the form's action attribute.*
+
+> Example
+- A form with a submit button:
+
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+#### The Name Attribute for `<input>`
+
+*Notice that each input field must have a `name` attribute to be submitted.*
+
+*If the `name` attribute is omitted, the value of the input field will not be sent at all.*
+
+> Example
+- This example will not submit the value of the "First name" input field: 
+
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" value="John"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
 
 ## HTML Attributes
 
@@ -525,4 +627,126 @@ form elements
 
 <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
 ```
+
+## HTML Tables
+
+*HTML tables allow web developers to arrange data into rows and columns.*
+
+```html
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+```
+
+### HTML Table Tags
+
+- `<table>`	Defines a table
+- `<th>`	Defines a header cell in a table
+- `<tr>`	Defines a row in a table
+- `<td>`	Defines a cell in a table
+- `<caption>`	Defines a table caption
+- `<colgroup>`	Specifies a group of one or more columns in a table for formatting
+- `<col>`	Specifies column properties for each column within a <colgroup> element
+- `<thead>`	Groups the header content in a table
+- `<tbody>`	Groups the body content in a table
+- `<tfoot>`	Groups the footer content in a table
+
+## HTML Lists
+
+*HTML lists allow web developers to group a set of related items in lists.*
+
+```html
+An unordered HTML list:
+
+- Item
+- Item
+- Item
+- Item
+
+An ordered HTML list:
+
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+```
+
+### Unordered HTML List
+
+*An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag.*
+
+- The list items will be marked with bullets (small black circles) by default:
+
+```html
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+```
+
+### Ordered HTML List
+
+*An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.*
+
+- The list items will be marked with numbers by default:
+
+```html
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+```
+
+### HTML List Tags
+
+- `<ul>`	Defines an unordered list
+- `<ol>`	Defines an ordered list
+- `<li>`	Defines a list item
+- `<dl>`	Defines a description list
+- `<dt>`	Defines a term in a description list
+- `<dd>`	Describes the term in a description list
+
+## HTML Layout Elements and Techniques
+
+### HTML Layout Elements
+
+*HTML has several semantic elements that define the different parts of a web page:*
+
+<div align="center">
+  <img width="50px" src="https://www.w3schools.com/html/img_sem_elements.gif"/>
+</div>
+
+- `<header>` : Defines a header for a document or a section
+- `<nav>` : Defines a set of navigation links
+- `<section>` : Defines a section in a document
+- `<article>` : Defines an independent, self-contained content
+- `<aside>` : Defines content aside from the content (like a sidebar)
+- `<footer>` : Defines a footer for a document or a section
+- `<details>` : Defines additional details that the user can open and close on demand
+- `<summary>` : Defines a heading for the `<details>` element
+
+### HTML Layout Techniques
+
+*There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:*
+
+- CSS framework
+- CSS float property
+- CSS flexbox
+- CSS grid
 
