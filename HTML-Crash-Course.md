@@ -147,7 +147,10 @@ but the        browser
 ignores it.
 </p>  
 ```
-## HTML Formatting Elements
+## HTML Elements
+
+### HTML Formatting Elements
+
 
 > Formatting elements were designed to display special types of text:
 
@@ -162,7 +165,7 @@ ignores it.
 - `<sub>` - Subscript text
 - `<sup>` - Superscript text
 
-## HTML Quotation and Citation Elements
+### HTML Quotation and Citation Elements
 
 *In this chapter we will go through the `<blockquote>`,`<q>`, `<abbr>`, `<address>`, `<cite>`, and `<bdo>` HTML elements.*
 
@@ -284,7 +287,7 @@ USA
 <a> <abbr> <acronym> <b> <bdo> <big> <br> <button> <cite> <code> <dfn> <em> <i> <img> <input> <kbd> <label> <map> <object> <output> <q> <samp> <script> <select> <small> <span> <strong> <sub> <sup> <textarea> <time> <tt> <var>
 ```
 
-## The `<div>` Element
+### The `<div>` Element
 
 *The `<div>` element is often used as a container for other HTML elements.*
 *The `<div>` element has no required attributes, but `style`, `class` and `id` are common.*
@@ -298,7 +301,7 @@ USA
 </div>
 ```
 
-## The `<span>` Element
+### The `<span>` Element
 
 *The `<span>` element is an inline container used to mark up a part of a text, or a part of a document.*
 

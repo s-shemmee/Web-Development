@@ -14,11 +14,11 @@
     <header class="bookshelf">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Bookshelf</a>
+          <a class="navbar-brand" href="#"><span class="text-warning">Book</span>Shelf</a>
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="navbar-collapse collapse" id="navbarNav">
+          <div class="navbar-collapse collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Kindle</a>
@@ -41,14 +41,13 @@
       </nav>
     </header>
     <section class="container">
-      <p>Lorem ipsum dolor sit amet.</p>
       <div class="wrapper row">
         <div class="col-sm-10">
           <h1>Book Listing</h1>
           <h2>Kindle</h2>
-          <table>
+          <table class="table table-bordered  table-responsive table-striped table-light">
             <thead>
-              <tr>
+              <tr class="table-dark">
                 <th>Title</th>
                 <th>Author</th>
                 <th>Image</th>
@@ -56,24 +55,60 @@
             </thead>
             <tbody>
               <tr>
-                <td>title1</td>
-                <td>author1</td>
-                <td>image1</td>
+                <td>Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming</td>
+                <td>Marijn Haverbeke</td>
+                <td><img src="https://books.google.com/books/publisher/content?id=p1v6DwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U2--PnwWDCz4HaXI9g-0yr747R1Ig&w=1280" width="100px"> </td>
               </tr>
               <tr>
-                <td>title1</td>
-                <td>author1</td>
-                <td>image1</td>
-              </tr>            <tr>
-                <td>title1</td>
-                <td>author1</td>
-                <td>image1</td>
+                <td>HTML & CSS: Design and Build Web Sites</td>
+                <td>Jon Duckett</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr5wnMzcxHqwaik7W65drOnQXIZPUh7WhlwfjjI0AVGMMMCMJFpOoMBpCl&s=5" width="100px"></td>
+              </tr>            
+              <tr>
+                <td>Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability</td>
+                <td>Steve Krug</td>
+                <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQCZtyCEjj5do-azQcPWfZqSiEY2owAQzKwzuv1-cAOeNNu6xYR" width="100px"></td>
+              </tr>
+              <tr>
+                <td>You Don't Know JS: Scope & Closures</td>
+                <td>Kyle Simpson</td>
+                <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThdB773fkiClHfao-WtYTKzuzp9KP2sKXac3IHpowk9cAKcQjs" width="100px"></td>
+              </tr>              
+              <tr>
+                <td>Learning PHP, MySQL, JavaScript, CSS & HTML5: A Step-by-Step Guide to Creating Dynamic Websites</td>
+                <td>Robin Nixon</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbjqYnwTnMWMD2XGK4-aC1LdJuWFOzI5K3H8aqhfNM52YPjyyL" width="100px"></td>
+              </tr>              
+              <tr>
+                <td>Learning Web Design</td>
+                <td>Jennifer Niederst Robbins</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxWSDF70M6ESndR1PxrRr012UjkeQ5jOPG9gcDMuMdksfBoNCp" width="100px"></td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
-      <aside class="col-sm-2">advertisement</aside>
+      <div class="container" style="margin-top:50px;">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card-sl">
+                    <div class="card-image">
+                        <img
+                            src="https://preview.redd.it/wf5tj6ymmi961.jpg?auto=webp&s=108c6c6ba09f04270fa9ed4776f62298be202dfe" />
+                    </div>
+                    <div class="card-heading">
+                      Toyota Supra MK4
+                    </div>
+                    <div class="card-text">
+                      The fourth-generation Supra combines power, overengineered turbocharged engine reliability, an aerodynamic body.
+                    </div>
+                    <div class="card-text">
+                        $76,199
+                    </div>
+                    <a href="#" class="card-button"> Purchase</a>
+                </div>
+            </div>
+        </div>  
     </section>
     <!--<nav class="navbar navbar-expand-lg bg-white">
       <div class="container">
