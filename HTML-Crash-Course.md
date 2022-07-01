@@ -330,9 +330,9 @@ form elements
 
 *An <input> element can be displayed in many ways, depending on the type attribute.*
 
-> Here are some examples:
-html```<input type="text">```	: Displays a single-line text input field
-html```<input type="radio">``` : Displays a radio button (for selecting one of many choices)
+*Here are some examples:*
+> html```<input type="text">```	: Displays a single-line text input field
+> html```<input type="radio">``` : Displays a radio button (for selecting one of many choices)
 
 
 ## HTML Attributes
