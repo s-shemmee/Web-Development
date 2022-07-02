@@ -61,7 +61,7 @@ This page will explain the most basic CSS selectors.
 }
 ```
 
-### The CSS class Selector
+#### The CSS class Selector
 
 *The class selector selects HTML elements with a specific class attribute.*
 *To select elements with a specific class, write a period (.) character, followed by the class name.*
@@ -97,7 +97,7 @@ p.center {
 <p class="center large">This paragraph refers to two classes.</p>
 ```
 
-### The CSS Universal Selector
+#### The CSS Universal Selector
 
 *The universal selector `(*)` selects all HTML elements on the page.*
 
@@ -111,7 +111,7 @@ p.center {
 }
 ```
 
-### The CSS Grouping Selector
+#### The CSS Grouping Selector
 
 *The grouping selector selects all the HTML elements with the same style definitions.*
 
@@ -173,6 +173,218 @@ p {
   color: red;
 }
 ```
+
+## CSS Colors
+
+*Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.*
+
+### CSS Color Names
+
+*In CSS, a color can be specified by using a predefined color name:*
+
+> Ex : 
+
+- Tomato,Orange,Dodger,Blue,MediumSea,Green,Gray,SlateBlue,Violet,LightGray
+
+### CSS Background Color
+
+*You can set the background color for HTML elements:*
+
+```html
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+```
+
+### CSS Text Color
+
+*You can set the color of text:*
+
+```html
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+```
+
+### CSS Border Color
+
+*You can set the color of borders:*
+
+```html
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+```
+
+### CSS Color Values
+
+*In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values:*
+
+- Same as color name "Tomato":
+
+```html
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+Same as color name "Tomato", but 50% transparent:
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+```
+
+## CSS Backgrounds
+
+*The CSS background properties are used to add background effects for elements.*
+
+### CSS background-color
+
+*The `background-color` property specifies the background color of an element.*
+
+> Example
+- The background color of a page is set like this:
+
+```css
+body {
+  background-color: lightblue;
+}
+```
+- Or
+
+```css
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+}
+```
+
+#### Opacity / Transparency
+
+*The `opacity` property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:*
+
+```css
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+```
+
+#### Transparency using RGBA
+
+*If you do not want to apply opacity to child elements, like in our example above, use RGBA color values. The following example sets the opacity for the background color and not the text:*
+
+*An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).*
+
+```css
+div {
+  background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+}
+```
+
+### CSS background-image
+
+*The background-image property specifies an image to use as the background of an element.*
+
+*By default, the image is repeated so it covers the entire element.*
+
+> Example
+- Set the background image for a page: 
+
+```css
+body {
+  background-image: url("paper.gif");
+}
+```
+
+- The background image can also be set for specific elements, like the <p> element:
+
+> Example
+
+```css
+p {
+  background-image: url("paper.gif");
+}
+```
+
+### CSS background-repeat
+
+*By default, the `background-image` property repeats an image both horizontally and vertically.*
+
+*Some images should be repeated only horizontally or vertically, or they will look strange, like this:*
+
+> Example
+
+```css
+body {
+  background-image: url("gradient_bg.png");
+}
+```
+
+- If the image above is repeated only horizontally (background-repeat: repeat-x;), the background will look better:
+
+> Example
+
+```css
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+```
+> Tip: To repeat an image vertically, set background-repeat: repeat-y;
+
+#### CSS background-repeat: no-repeat
+
+*Showing the background image only once is also specified by the `background-repeat` property:*
+
+> Example
+
+- Show the background image only once:
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+```
+
+- In the example above, the background image is placed in the same place as the text. We want to change the position of the image, so that it does not disturb the text too much.
+
+#### CSS background-position
+
+*The `background-position` property is used to specify the position of the background image.*
+
+> Example
+
+- Position the background image in the top-right corner: 
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+```
+
+### CSS background-attachment
+
+*The `background-attachment` property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):*
+
+> Example
+- Specify that the background image should be fixed:
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+```
+
 
 ## The CSS Box Model
 
