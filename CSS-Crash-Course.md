@@ -218,7 +218,7 @@ div {
 
 - Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the `position` property is set first. They also work differently depending on the position value.
 
-#### position: static;
+#### position : static
 
 *HTML elements are positioned static by default.*
 
@@ -237,7 +237,7 @@ div.static {
 }
 ```
 
-#### position: relative;
+#### position : relative
 
 *An element with `position: relative;` is positioned relative to its normal position.*
 
@@ -255,7 +255,7 @@ div.relative {
 }
 ```
 
-#### position: fixed;
+#### position : fixed
 
 *An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.*
 
@@ -273,7 +273,7 @@ div.fixed {
 }
 ```
 
-#### position: fixed;
+#### position : fixed
 
 *An element with `position: fixed;` is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.*
 
@@ -291,7 +291,7 @@ div.fixed {
 }
 ```
 
-#### position: sticky;
+#### position : sticky
 
 *An element with `position: sticky;` is positioned based on the user's scroll position.*
 
