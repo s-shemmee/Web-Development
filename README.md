@@ -84,10 +84,6 @@ Here are some related projects
 - [JS-Crash-Course]()
 
 
-##  <img src="https://media.giphy.com/media/lGhBlBMIN2XsEteTN3/giphy.gif" width="30"/> About Me 
-*I'm s-shemmee and I'm a self-taught web developer who shares with you my journey of learning web development and web design from the ground up. I share with you tutorials, case studies, tips, and tricks to help you learn this new skill!*
-
-
 ## Sources
 
 - [@Codedamn](https://codedamn.com)
@@ -97,5 +93,9 @@ Here are some related projects
 - [@MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 
+##  <img src="https://media.giphy.com/media/lGhBlBMIN2XsEteTN3/giphy.gif" width="30"/> About Me 
+*I'm s-shemmee and I'm a self-taught web developer who shares with you my journey of learning web development and web design from the ground up. I share with you tutorials, case studies, tips, and tricks to help you learn this new skill!*
+
+---
 
 > By [@s-shemmee](https://www.github.com/s-shemmee)
