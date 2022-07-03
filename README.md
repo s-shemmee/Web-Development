@@ -5,6 +5,12 @@
 
 ## <img src="https://media.giphy.com/media/RkcB9I0YnRiN6OQitv/giphy.gif" width="30"/> Skills
 
+**Front-end vs. back-end**
+
+*Every application has both a front-end and a back-end.*
+
+*The front-end is what you see on the browser, and the back-end is what handles the work behind the scenes: a database that stores everything you need, and rules, which connect the information in your database to the way you want it seen on someone's browser.*
+
 - Front-end languages: 
   - HTML
   - CSS
