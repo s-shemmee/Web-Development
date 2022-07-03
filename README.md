@@ -5,9 +5,27 @@
 
 ## <img src="https://media.giphy.com/media/RkcB9I0YnRiN6OQitv/giphy.gif" width="30"/> Skills
 
-- HTML
-- CSS
-- Javascript
+**Front-end vs. back-end**
+
+*Every application has both a front-end and a back-end.*
+
+*The front-end is what you see on the browser, and the back-end is what handles the work behind the scenes: a database that stores everything you need, and rules, which connect the information in your database to the way you want it seen on someone's browser.*
+
+- Front-end languages: 
+  - HTML
+  - CSS
+  - Javascript
+
+- Back-end languages: 
+  - Python 
+  - Ruby
+  - PHP 
+
+- Databases: 
+  - SQL
+  - MySQL
+  - Postgres  
+  - SQLite
 
 
 
@@ -84,10 +102,6 @@ Here are some related projects
 - [JS-Crash-Course]()
 
 
-##  <img src="https://media.giphy.com/media/lGhBlBMIN2XsEteTN3/giphy.gif" width="30"/> About Me 
-*I'm s-shemmee and I'm a self-taught web developer who shares with you my journey of learning web development and web design from the ground up. I share with you tutorials, case studies, tips, and tricks to help you learn this new skill!*
-
-
 ## Sources
 
 - [@Codedamn](https://codedamn.com)
@@ -97,5 +111,9 @@ Here are some related projects
 - [@MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 
+##  <img src="https://media.giphy.com/media/lGhBlBMIN2XsEteTN3/giphy.gif" width="30"/> About Me 
+*I'm s-shemmee and I'm a self-taught web developer who shares with you my journey of learning web development and web design from the ground up. I share with you tutorials, case studies, tips, and tricks to help you learn this new skill!*
+
+---
 
 > By [@s-shemmee](https://www.github.com/s-shemmee)
