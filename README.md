@@ -5,9 +5,21 @@
 
 ## <img src="https://media.giphy.com/media/RkcB9I0YnRiN6OQitv/giphy.gif" width="30"/> Skills
 
-- HTML
-- CSS
-- Javascript
+- Front-end languages: 
+  - HTML
+  - CSS
+  - Javascript
+
+- Back-end languages: 
+  - Python 
+  - Ruby
+  - PHP 
+
+- Databases: 
+  - SQL
+  - MySQL
+  - Postgres  
+  - SQLite
 
 
 
