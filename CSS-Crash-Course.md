@@ -385,6 +385,315 @@ body {
 }
 ```
 
+## CSS Borders
+
+*The CSS border properties allow you to specify the style, width, and color of an element's border.*
+
+### CSS Border Style
+
+*The `border-style` property specifies what kind of border to display.*
+
+*The following values are allowed:*
+
+- `dotted` : Defines a dotted border
+- `dashed` : Defines a dashed border
+- `solid` : Defines a solid border
+- `double` : Defines a double border
+- `groove` : Defines a 3D grooved border. The effect depends on the border-color value
+- `ridge` : Defines a 3D ridged border. The effect depends on the border-color value
+- `inset` : Defines a 3D inset border. The effect depends on the border-color value
+- `outset` : Defines a 3D outset border. The effect depends on the border-color value
+- `none` : Defines no border
+- `hidden` : Defines a hidden border
+
+*The `border-style` property can have from one to four values (for the top border, right border, bottom border, and the left border).*
+
+> Example
+
+```css
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+```
+
+### CSS Border Width
+
+*The `border-width` property specifies the width of the four borders.*
+
+*The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:*
+
+> Example
+
+- Demonstration of the different border widths:
+
+```css
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+```
+
+### CSS Border Color
+
+*The border-color property is used to set the color of the four borders.*
+
+> The color can be set by:
+
+- name : specify a color name, like "red"
+- HEX : specify a HEX value, like "#ff0000"
+- RGB : specify a RGB value, like "rgb(255,0,0)"
+- HSL : specify a HSL value, like "hsl(0, 100%, 50%)"
+- transparent
+
+> Note: If border-color is not set, it inherits the color of the element.
+
+> Example
+
+- Demonstration of the different border colors:
+
+```css
+p.one {
+  border-style: solid;
+  border-color: red;
+}
+
+p.two {
+  border-style: solid;
+  border-color: green;
+}
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+```
+
+### CSS Border - Individual Sides
+
+*From the examples on the previous pages, you have seen that it is possible to specify a different border for each side.*
+
+*In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left):*
+
+> Example
+
+```css
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+```
+
+### CSS Rounded Borders
+
+*The border-radius property is used to add rounded borders to an element:*
+
+```css
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+```
+
+## CSS Margins
+
+*The CSS `margin` properties are used to create space around elements, outside of any defined borders.*
+
+*With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).*
+
+### Margin - Individual Sides
+
+*CSS has properties for specifying the margin for each side of an element:*
+
+- `margin-top`
+- `margin-right`
+- `margin-bottom`
+- `margin-left`
+
+*All the margin properties can have the following values:*
+
+- auto : the browser calculates the margin
+- length : specifies a margin in px, pt, cm, etc.
+- % : specifies a margin in % of the width of the containing element
+- inherit : specifies that the margin should be inherited from the parent element
+
+>Tip: Negative values are allowed.
+
+> Example
+
+- Set different margins for all four sides of a <p> element:
+
+```css
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+```
+
+- Use the margin shorthand property with four values:
+
+```css
+p {
+  margin: 25px 50px 75px 100px;
+}
+```
+
+### The auto Value
+
+*You can set the margin property to auto to horizontally center the element within its container.*
+
+*The element will then take up the specified width, and the remaining space will be split equally between the left and right margins.*
+
+> Example
+
+- Use margin: auto:
+
+```css
+div {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+```
+
+### The inherit Value
+
+*This example lets the left margin of the `<p class="ex1">` element be inherited from the parent element (`<div>`):*
+
+> Example
+
+```css
+- Use of the inherit value:
+
+div {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+p.ex1 {
+  margin-left: inherit;
+}
+```
+
+## CSS Padding
+
+*The CSS padding properties are used to generate space around an element's content, inside of any defined borders.*
+
+*With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).*
+
+### Padding - Individual Sides
+
+*CSS has properties for specifying the padding for each side of an element:*
+
+- `padding-top`
+- `padding-right`
+- `padding-bottom`
+- `padding-left`
+
+*All the padding properties can have the following values:*
+
+- length : specifies a padding in px, pt, cm, etc.
+- % : specifies a padding in % of the width of the containing element
+- inherit : specifies that the padding should be inherited from the parent element
+
+> Note: Negative values are not allowed.
+
+> Example
+
+- Set different padding for all four sides of a <div> element:  
+
+```css
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+```
+- If the `padding` property has four values:
+
+- padding: 25px 50px 75px 100px;
+  - top padding is 25px
+  - right padding is 50px
+  - bottom padding is 75px
+  - left padding is 100px
+
+> Example
+
+- Use the padding shorthand property with four values:
+
+```css
+div {
+  padding: 25px 50px 75px 100px;
+}
+```
+
+## CSS Height, Width and Max-width
+
+- `height`	Sets the height of an element
+- `max-height`	Sets the maximum height of an element
+- `max-width`	Sets the maximum width of an element
+- `min-height`	Sets the minimum height of an element
+- `min-width`	Sets the minimum width of an element
+- `width`	Sets the width of an element
+
+### CSS height and width Values
+
+*The height and width properties may have the following values:*
+
+- `auto` : This is default. The browser calculates the height and width
+- `length` : Defines the height/width in px, cm etc.
+- `%` : Defines the height/width in percent of the containing block
+- `initial` : Sets the height/width to its default value
+- `inherit` : The height/width will be inherited from its parent value
+
+> Example
+- Set the height and width of a `<div>` element:
+
+```css
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+```
+
+- This `<div>` element has a height of 100 pixels and a max-width of 500 pixels: 
+
+```css
+div {
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}
+```
+
 
 ## The CSS Box Model
 
