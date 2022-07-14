@@ -1,0 +1,64 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione  
+Developed @ One Month in NYC
+
+*/
+
+html {
+	/* set up a background image */
+	
+	background: url('../images/cookie-monster.jpg') no-repeat;
+
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	background: #35C0F2;
+	border-radius: 10px;
+	padding: 5px;
+	color: black;
+}
+
+a {
+	color: #35C0F2;
+	text-decoration: none;
+}
+
+#container {
+	background: black;
+	width: 440px;
+	color: white;
+	padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
