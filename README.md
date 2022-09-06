@@ -97,7 +97,7 @@
     - The CSS Grouping Selector
     - All CSS Simple Selectors
   - CSS Comments
-    -CSS Colors
+  - CSS Colors
     - CSS Color Names
     - CSS Background Color
     - CSS Text Color
@@ -123,7 +123,7 @@
     - The auto Value
     - The inherit Value
   - CSS Padding
-    -Padding Individual Sides
+    - Padding - Individual Sides
   - CSS Height, Width and Max-width
     - CSS height and width Values
   - The CSS Box Model
