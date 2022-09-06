@@ -89,6 +89,52 @@
     - HTML Layout Techniques
 
 - CSS
+  - CSS Syntax
+  - CSS Selectors
+    - The CSS id Selector
+    - The CSS class Selector
+    - The CSS Universal Selector
+    - The CSS Grouping Selector
+    - All CSS Simple Selectors
+  - CSS Comments
+    -CSS Colors
+    - CSS Color Names
+    - CSS Background Color
+    - CSS Text Color
+    - CSS Border Color
+    - CSS Color Values
+  - CSS Backgrounds
+    - CSS background-color
+      - Opacity / Transparency
+      - Transparency using RGBA
+    - CSS background-image
+    - CSS background-repeat
+    - CSS background-repeat: no-repeat
+    - CSS background-position
+    - CSS background-attachment
+  - CSS Borders
+    - CSS Border Style
+    - CSS Border Width
+    - CSS Border Color
+    - CSS Border - Individual Sides
+    - CSS Rounded Borders
+  - CSS Margins
+    - Margin - Individual Sides
+    - The auto Value
+    - The inherit Value
+  - CSS Padding
+    -Padding Individual Sides
+  - CSS Height, Width and Max-width
+    - CSS height and width Values
+  - The CSS Box Model
+  - CSS positioning
+    - The position Property
+      - position : static
+      - position : relative
+      - position : fixed
+      - position : fixed
+      - position : sticky
+      - All CSS Positioning Properties
 
 
 
@@ -96,9 +142,9 @@
 
 Here are some related projects
 
-- [The Internet](https://github.com/s-shemmee/Web-Development/blob/main/The-Internet.md)
-- [HTML-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/HTML-Crash-Course.md)
-- [CSS-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/CSS-Crash-Course.md)
+- [The Internet](https://github.com/s-shemmee/Web-Development/blob/main/1-The-Internet.md)
+- [HTML-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/2-HTML-Crash-Course.md)
+- [CSS-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/3-CSS-Crash-Course.md)
 - [JS-Crash-Course]()
 
 
