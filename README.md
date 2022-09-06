@@ -146,6 +146,8 @@ Here are some related projects
 - [HTML-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/2-HTML-Crash-Course.md)
 - [CSS-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/3-CSS-Crash-Course.md)
 - [JS-Crash-Course]()
+- [Python-Crash-Course](https://github.com/s-shemmee/Python-in-30-Days)
+- [Python Project Ideas](https://github.com/s-shemmee/Python-Project-Ideas)
 
 
 ## Sources
