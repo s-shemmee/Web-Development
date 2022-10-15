@@ -28,6 +28,36 @@
   - SQLite
 
 
+## Introduction
+
+### What is HTML used for?
+
+*HTML is a standardized language for creating documents that can be rendered by clients known as web browsers. HTML is used to create web pages that we see every day on the Internet. Each page we see on the world wide web is written using a version of HTML.*
+*The development of documents on the internet is governed by HTML and its basic concept through tags and DOM, i.e., the model of document objects.*
+
+Elements are the specific HTML units of a web page — for example a paragraph — that could look like this in HTML:
+
+> HTML
+
+```html
+<html>
+ <head>
+ </head>
+ <body>
+   <p>This is my paragraph!</p>
+ </body>
+</html>
+```
+
+> Output
+```text
+This is my paragraph!
+```
+
+### What is CSS used for?
+
+*CSS brings style to your web pages by interacting with HTML elements.*
+
 
 ## <img src="https://media.giphy.com/media/5mgkHUz6GdNj1YOAgC/giphy.gif" width="30"/> Roadmap
 
