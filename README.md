@@ -30,33 +30,29 @@
 
 ## Introduction
 
-### What is HTML used for?
+*To create web pages with great design, interactivity, and maintainability, the trinity of HTML, CSS, and JavaScript provides you with a powerful toolset. Each contributor adds a precious piece to the result.*
 
-*HTML is a standardized language for creating documents that can be rendered by clients known as web browsers. HTML is used to create web pages that we see every day on the Internet. Each page we see on the world wide web is written using a version of HTML.*
-*The development of documents on the internet is governed by HTML and its basic concept through tags and DOM, i.e., the model of document objects.*
+### HTML
 
-Elements are the specific HTML units of a web page — for example a paragraph — that could look like this in HTML:
+HTML describes the content of your web pages. Using the Hypertext Markup Language, you can build up the structure of the page without defining its exact visual properties, typography, and layout.
 
-> HTML
+Although you can utilize the style attributes of HTML elements to express appearance, it is a good idea to avoid this technique as mixing content and style in HTML markup would definitely jeopardize the maintainability of your page’s source code.
 
-```html
-<html>
- <head>
- </head>
- <body>
-   <p>This is my paragraph!</p>
- </body>
-</html>
-```
+### CSS
 
-> Output
-```text
-This is my paragraph!
-```
+Style is where CSS comes into the picture. With Cascading Style Sheets, you can describe the visual attributes of your page, clearly separated from its content. It not only provides you more readable and maintainable code, but also enables you to deal with the design of your web pages as a different role that can be totally disconnected from managing the content.
 
-### What is CSS used for?
+### JavaScript
 
-*CSS brings style to your web pages by interacting with HTML elements.*
+JavaScript is the secret sauce that empowers your pages with interactivity.
+
+This dynamic programming language provides:
+
+full control over your page,
+allows changing its content,
+responding to events,
+communicating with the server, and much more.
+In real webpages, you can use JavaScript libraries like jQuery to solve common tasks.
 
 
 ## <img src="https://media.giphy.com/media/5mgkHUz6GdNj1YOAgC/giphy.gif" width="30"/> Roadmap
