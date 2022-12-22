@@ -168,12 +168,7 @@ In real webpages, you can use JavaScript libraries like jQuery to solve common t
 
 Here are some related projects
 
-- [The Internet](https://github.com/s-shemmee/Web-Development/blob/main/1-The-Internet.md)
-- [HTML-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/2-HTML-Crash-Course.md)
-- [CSS-Crash-Course](https://github.com/s-shemmee/Web-Development/blob/main/3-CSS-Crash-Course.md)
-- [JS-Crash-Course]()
-- [Python-Crash-Course](https://github.com/s-shemmee/Python-in-30-Days)
-- [Python Project Ideas](https://github.com/s-shemmee/Python-Project-Ideas)
+- [Web Development Projects Idea](https://github.com/s-shemmee/Web-Dev-Projects-Idea)
 
 
 ## Sources
